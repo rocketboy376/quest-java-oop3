@@ -2,26 +2,25 @@ public class Nature {
 
     public static void main(String[] args) {
 
-        Penguin pingou = new Penguin("Pingou");
-        pingou.dive();
-        pingou.swimDown(3);
-        pingou.swimUp(1);
-        pingou.swimDown(4);
-        pingou.swimUp(5);
-        pingou.swimUp(1);
-        pingou.getOut();
+        Penguin mumble = new Penguin("Mumble");
+        mumble.dive();
+        mumble.swimDown(3);
+        mumble.swimUp(1);
+        mumble.swimDown(4);
+        mumble.swimUp(5);
+        mumble.swimUp(1);
+        mumble.getOut();
 
-        Eagle eyeCherry = new Eagle("Eye Cherry");
-        // TODO : uncomment the following code in order to test it
-        /*
-        eyeCherry.takeOff();
-        eyeCherry.ascend(120);
-        eyeCherry.ascend(30);
-        eyeCherry.glide();
-        eyeCherry.descend(140);
-        eyeCherry.land();
-        eyeCherry.descend(9);
-        eyeCherry.land();
-        */
+        Eagle hawkeye = new Eagle("Hawkeye");
+        
+        hawkeye.takeOff();
+        hawkeye.ascend(120);
+        hawkeye.ascend(30);
+        hawkeye.glide();
+        hawkeye.descend(140);
+        hawkeye.land();
+        hawkeye.descend(9);
+        hawkeye.land();
+        
     }
 }

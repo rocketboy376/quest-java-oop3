@@ -5,6 +5,6 @@ public interface Swim {
     int swimDown(int meters);
 
     int swimUp(int meters);
-
+    
     void getOut();
 }

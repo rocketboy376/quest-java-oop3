@@ -22,7 +22,7 @@ public class Penguin extends Bird implements Swim {
         return swimming;
     }
 
-    /**
+    /** 
      * dives, must be on ground
      */
     @Override
